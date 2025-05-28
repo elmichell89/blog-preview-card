@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 50px 1rem;
+}
+
+.main-container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    outline: 1px black solid;
+    box-shadow: 10px 10px;
+}
+
+.illustration-article{
+    display: block;
+    margin: 5% auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.tag{
+    display: block;
+    background-color: hsl(47, 88%, 63%);
+    margin-left: 8%;
+    width: 6em;
+    height: 2em;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2em;
+    font-weight: bold;    
+}
+
+.date{
+    margin-left: 8%;
+}
+
+.title{
+    margin-left: 8%;
+    margin-right: 8%;
+    text-decoration: none;
+    font-size: 22px;
+    color: hsl(0, 0%, 7%);
+    font-weight: bolder;
+    display: block;    
+}
+
+.title :hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.abstract{
+    margin-left: 8%;
+    margin-right: 8%;
+    color: hsl(0, 0%, 42%);
+}
+
+.personal-info{
+    display: flex;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    padding: 1%;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-bottom: 1%;
+    
+}
+
+@media (max-width: 600px){
+    .main-container{
+        margin: 0 auto;
+        box-shadow: 5px 5px;
+    }
+
+    body{
+        padding: 1rem;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+}
